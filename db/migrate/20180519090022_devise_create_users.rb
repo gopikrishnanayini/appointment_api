@@ -10,8 +10,8 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
       t.string :key
       t.string :authentication_token
       t.string :secret_key
-      t.string :uid
-      t.string :provider
+      t.init :uid
+      t.init :provider
       
       ## Recoverable
       t.string   :reset_password_token
