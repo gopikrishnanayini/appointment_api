@@ -41,8 +41,8 @@ Devise.setup do |config|
     config.reset_password_within = 6.hours
     config.sign_out_via = :delete
     #Add your ID and secret here #ID first, secret second
-    config.omniauth :facebook, "2163741017191306", "8e3b2b0cea6588a3314b8651f674178e", scope: 'public_profile,email', info_fields: 'email,name'
-    config.omniauth :google_oauth2, "782846439438-q4o4tjvldkfnr240chrj9h9l8oco55je.apps.googleusercontent.com", "iyNEjVkrM-2Fa_s6AcmbT5nq", scope: 'public_profile,email', info_fields: 'email,name'
+    config.omniauth :facebook, "c", "cc", scope: 'public_profile,email', info_fields: 'email,name'
+    config.omniauth :google_oauth2, "782846439438-ddd.apps.googleusercontent.com", "iyNEjVkrM-d", scope: 'public_profile,email', info_fields: 'email,name'
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
   # just :email. You can configure it to use [:username, :subdomain], so for
